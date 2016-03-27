@@ -255,14 +255,14 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {116251654,88900862,100142213},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V3
+    about_text = [[window Bot V3
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @Mr_Ah_S
+    @Sazande_Sojer
     
     Special Thanks To:
     Mehr Pouya
@@ -270,15 +270,15 @@ function create_config( )
     IM/-\N
     Creed Is Dead
     
-    Powered By @Sbss_Team
+    Powered By @Channel_Window
     
     #Open Source
-    https://github.com/SbssTeam/Sbss
+    https://github.com/Sojerbot/window3/edit/master/bot/sbssbot.lua
 ]],
     help_text_realm = [[
 See Patterns In Github
 ]],
-    help_text = [[
+    راهنما_text = [[
 
   لیست دستورات :
 __________________________
@@ -351,7 +351,7 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+Writed by window team
 ]]
   }
   serialize_to_file(config, './data/config.lua')
